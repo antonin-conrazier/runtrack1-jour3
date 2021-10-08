@@ -1,0 +1,44 @@
+style {        
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+body {
+    display: grid;
+    grid-template-columns: 75% 25%; 
+    grid-template-rows: 10vw 30vw 10vw;
+    grid-gap: 1em;
+    background-image: url('https://i.imgur.com/aO5CSj6.jpg');
+    font: 16px arial;
+    color : white
+
+  }
+  
+  header,
+  footer {
+    grid-column: 1 / span 2;
+  }
+  
+  body {
+    margin: 0 auto;
+    max-width: 56em;
+    padding: 1em 0;
+  }
+  
+  header,
+  main,
+  aside,
+  footer {
+      
+    background:url('https://i.imgur.com/hBKfdyA.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: ;
+  }

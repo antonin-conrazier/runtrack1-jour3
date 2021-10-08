@@ -1,0 +1,41 @@
+style { 
+
+font-family: Arial, Helvetica, sans-serif;}
+html, body {
+    box-sizing: border-box;
+    margin: 5;
+    padding: 5;
+}
+   body {
+    background-color: rgb(100, 93, 196); 
+    font-family: Verdana, sans-serif; 
+    font-size: 100%;
+    
+    }
+   h1 {
+    font-size: 200%; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    }
+   h2 {
+    font-size: 100%; 
+    color: rgb(57, 2, 255); 
+    padding-left: 15px;
+    }
+   p,ul,li,td {
+    color: black; 
+    }
+   a:link {
+    color: green;
+    text-decoration: underline;
+    }
+   a:visited {
+    color: gray;
+    }
+   a:hover {
+    color: red;
+    text-decoration: none;
+   }
+   a:active, a:focus {
+    color: red;
+   }
